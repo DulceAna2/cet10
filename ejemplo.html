@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <form action="" method="">
+            <fieldset><!--conjunto de campos-->
+                <legend>Datos Personales</legend><!--Titulos-->
+                <div>
+                    <label for="nombre">Nombre</label><!--titulo de campo-->
+                    <input type="text" name="nombre" id="nombre">
+                    <label for="Apellido">Apellido</label><!--titulo de campo-->
+                    <input type="text" name="Apellido" id="Apellido">
+                </div>
+                <div>
+                    <label for="dni">DNI</label>
+                    <input type="number" name="dni" id="dni">
+                </div>
+            </fieldset>
+            <fieldset><!--input tipo radio-->
+                <legend>Intereses</legend>
+                <div>
+                    <label for="deporte">Natacion</label>
+                    <input type="radio" name="deporte" id="natacion" value="natacion">
+                    <label for="deporte">Voley</label>
+                    <input type="radio" name="deporte" id="voley" value="voley">
+                    <label for="deporte">futbol</label>
+                    <input type="radio" name="deporte" id="futbol" value="futbol">
+                </div>
+                <div>
+                    <label for="equipos">Equipos</label>
+                    <select name="equipos" id="equipos">
+                        <option value="#"></option>
+                        <option value="river">River</option>
+                        <option value="San-Lorenzo">San Lorenzo</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Escribe sobre ti</legend>
+                <label for="texto">Descripcion</label>
+                <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+            </fieldset>
+
+
+        </form>
+    </main>
+</body>
+
+</html>
