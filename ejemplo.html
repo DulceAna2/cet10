@@ -18,9 +18,9 @@
                 <legend>Datos Personales</legend><!--Titulos-->
                 <div>
                     <label for="nombre">Nombre</label><!--titulo de campo-->
-                    <input type="text" name="nombre" id="nombre">
+                    <input type="text" name="nombre" id="nombre" required>
                     <label for="Apellido">Apellido</label><!--titulo de campo-->
-                    <input type="text" name="Apellido" id="Apellido">
+                    <input type="text" name="Apellido" id="Apellido" required>
                 </div>
                 <div>
                     <label for="dni">DNI</label>
@@ -29,9 +29,10 @@
             </fieldset>
             <fieldset><!--input tipo radio-->
                 <legend>Intereses</legend>
+                <!--campo obligatorio "required"-->
                 <div>
                     <label for="deporte">Natacion</label>
-                    <input type="radio" name="deporte" id="natacion" value="natacion">
+                    <input type="radio" name="deporte" id="natacion" value="natacion" >
                     <label for="deporte">Voley</label>
                     <input type="radio" name="deporte" id="voley" value="voley">
                     <label for="deporte">futbol</label>
@@ -50,7 +51,10 @@
                 <legend>Escribe sobre ti</legend>
                 <label for="texto">Descripcion</label>
                 <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
-            </fieldset>
+            </fieldset> 
+
+            <input type="submit" value="Enviar"> <!--boton enviar-->
+            <button>Guardar</button>
 
 
         </form>
