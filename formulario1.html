@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>olvidar</title>
+    <link rel="stylesheet" href="formulario1.css">
+    <style>
+        main {
+
+            justify-content: center;
+        }
+
+        .separar {
+            margin: 10px;
+        }
+
+        html {
+            margin: 35px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+
+        <h1>Entorno Virtual de Aprendizaje - CET Nº30</h1>
+        <h3><a href="formulario.html">Pagina Principal</a>/ Contraseña olvidada</h3>
+
+        <p>Para reajustar su contraseña, envíe su nombre de usuario o su dirección de correo electrónico. Si podemos
+            encontrarlo en la base de datos, le enviaremos un email con instrucciones para poder acceder de nuevo.
+        </p>
+        <h3>Buscar por nombre de usuario</h3>
+        <div>
+            <label for="nombre">Nombre de usuario</label><!--titulo de campo-->
+            <input type="text" name="nombre" id="nombre" required>
+        </div>
+        <input type="submit" value="Enviar" class="separar"> <!--boton enviar-->
+        <h3>Buscar por dirección email</h3>
+        <div>
+            <label for="correo">Dirección de correo</label><!--titulo de campo-->
+            <input type="email" name="correo" id="correo" required>
+        </div>
+        <input type="submit" value="Enviar" class="separar"> <!--boton enviar-->
+    </main>
+</body>
+
+</html>
