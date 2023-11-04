@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registrarse</title>
+    <style>
+        header{font-size:  3em;
+        text-align: center;
+        }
+        fieldset{
+    height: 260px;
+    width: 500px;
+}
+
+body {
+    width: 50%;
+    margin: 0 auto;
+}
+.separar{
+    margin: 20px;
+    }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <header>Registrarse</header>
+        <form action="" method="">
+            <fieldset ><!--conjunto de campos-->
+                <legend>Datos Personales</legend><!--Titulos-->
+                <div >
+                    <div  class="separar">
+                        <label for="nombre">Nombre</label><!--titulo de campo-->
+                        <input type="text" name="nombre" id="nombre" required placeholder="Nombre">
+                        <label for="Apellido">Apellido</label><!--titulo de campo-->
+                        <input type="text" name="Apellido" id="Apellido" required placeholder="Apellido">
+                    </div>
+                    
+                    <div  class="separar">
+                        <label for="dni">DNI</label>
+                        <input type="number" name="dni" id="dni" placeholder="DNI">
+                    </div>
+                    <div  class="separar">
+                        <label for="correo">Correo Electronico</label>
+                        <input type="email" name="correo" id="correo" placeholder="Correo Electronico">
+                    </div>
+                    <div  class="separar">
+                        <label for="usuario">Nombre de usuario</label><!--titulo de campo-->
+                        <input type="text" name="usuario" id="usuario" required placeholder="Nombre de Usuario">
+                    </div>
+                    <div  class="separar">
+                        <label for="usuario">Contraseña</label><!--titulo de campo-->
+                        <input type="text" name="usuario" id="usuario" required placeholder="Contraseña">
+                    </div>
+                    <div class="separar">
+                        <label for="usuario">Repetir contraseña</label><!--titulo de campo-->
+                        <input type="text" name="usuario" id="usuario" required placeholder="Repetir Contraseña">
+                    </div>
+                </div>
+            </fieldset>
+            <input type="submit" value="Registrarse" style="    margin-top: 10px;
+            "> <!--boton enviar-->
+
+            
+
+        </form>
+    </main>
+</body>
+</html>
